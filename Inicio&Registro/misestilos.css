@@ -1,0 +1,124 @@
+body{
+    background-image: linear-gradient(135deg,#00ff0d,#00ff55,#fcff38,
+    #ff8c2d,#ff3232,#ff7575,#ffffff);
+    background-size: 900%;
+    animation: fanimado 10s infinite;
+}
+@keyframes fanimado{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+
+h1{
+    text-align: center;
+    font-family: cursive;
+    color: rgb(0, 0, 0);
+    margin: 30px;
+	padding: -40px;
+}
+
+
+.btn{
+
+    display: block;
+    width: 300px;
+    font-family: cursive;
+    font-weight: 500;
+    border-radius: 200px;
+    margin: 15px -10px;
+    padding: 10px 10px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    text-align: center;
+
+}
+.btn:hover{
+    background-color: transparent;
+    border: 2px solid rgb(0, 0, 0);
+    color:rgb(58, 58, 58);
+
+}
+
+h2{
+	padding: 30px 35px;
+	margin: -10px --50px;
+	text-align: center;
+	border-radius: 10px 10px 0 0;
+}
+hr{
+	margin: 10px -50px;
+}
+div.container{
+		/* border: 10px solid red; */
+		max-width: 90%;
+		margin: auto;
+		margin-top: 0px;
+	   
+	width: 400px;
+	height: 400px;
+	margin: 10px auto;
+	font-family: cursive;
+}
+div.main{
+	width: 300px;
+	padding: 20px 30px 35px;
+	border-color: black;
+	border-radius: 20px;
+	font-family: cursive;
+	float: left;
+	margin-top: 20px;
+	background: white;	
+}
+
+input[type=text],input[type=password]{
+	width: 270px;
+	height: 30px;
+	padding: 10px;
+	margin-bottom: 25px;
+	margin-top: 5px;
+	border: rgb(255, 0, 0);
+	color: rgb(0, 0, 0);
+	font-size: 16px;
+	border-radius: 5px;
+	background: transparent;
+}
+label{
+	color: rgb(0, 0, 0);
+	text-shadow: o 1px o rgb(255, 255, 255);
+	font-size: 14px;
+	font-weight: bold;
+	font-family: cursive;
+}
+.note{
+	color: rgb(0, 0, 0);
+	float: left;
+	padding: 10px;
+}
+.valid{
+	color: gold;
+}
+input[type=button]{
+	font-size: 15px;
+	background: rgb(255, 255, 255);
+	border: 3px solid rgb(0, 0, 0);
+	color: rgb(0, 0, 0);
+	font-weight: bold;
+cursor: pointer;
+	border-radius: 150px;
+	outline: none;
+	font-family: cursive;
+
+	width: 300px;
+	height: 40px;
+	padding: 5px;
+}
+
+
